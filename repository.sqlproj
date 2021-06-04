@@ -69,6 +69,10 @@
     <Folder Include="dbo\User Defined Types\" />
     <Folder Include="Security\" />
     <Folder Include="SalesLT\Sequences\" />
+    <Folder Include="stg\" />
+    <Folder Include="stg\Tables\" />
+    <Folder Include="audit\" />
+    <Folder Include="audit\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\ErrorLog.sql" />
@@ -103,5 +107,10 @@
     <Build Include="Security\SalesLT.sql" />
     <Build Include="Security\dwh.sql" />
     <Build Include="SalesLT\Sequences\SalesOrderNumber.sql" />
+    <Build Include="stg\Tables\ProductCategory.sql" />
+    <Build Include="stg\Tables\Product.sql" />
+    <Build Include="audit\Tables\etl_config.sql" />
+    <Build Include="Security\stg.sql" />
+    <Build Include="Security\audit.sql" />
   </ItemGroup>
 </Project>
